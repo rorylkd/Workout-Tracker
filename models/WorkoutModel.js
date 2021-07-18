@@ -17,16 +17,14 @@ var workoutSchema = new Schema({
          },
       weight: { 
           type: Number, 
-          required: true, 
          },
       reps: { 
           type: Number, 
-          required: true, 
          },
       sets: { 
-          type: Number, 
-          required: true, 
+          type: Number,  
          },
+      distance: {type: Number}
     },
   ],
   allDurations: {type: Number},

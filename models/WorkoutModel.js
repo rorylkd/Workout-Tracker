@@ -2,7 +2,7 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var workoutSchema = new Schema({
-  day: { type: Date, required: true },
+  day: { type: Date, default: Date.now },
   exercises: [
     {
       type: { 
@@ -14,19 +14,19 @@ var workoutSchema = new Schema({
       duration: { 
           type: Number, 
           required: true, 
-          minProperties: 0 },
+         },
       weight: { 
           type: Number, 
           required: true, 
-          minProperties: 0 },
+         },
       reps: { 
           type: Number, 
           required: true, 
-          minProperties: 0 },
+         },
       sets: { 
           type: Number, 
           required: true, 
-          minProperties: 0 },
+         },
     },
   ],
 });

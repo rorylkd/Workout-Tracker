@@ -5,23 +5,26 @@
 
 ## Table of Contents
 1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Credits](#credits)
-5. [License](#license)
-6. [Contributions](#contributions)
-7. [Tests](#tests)
-8. [Contact Info](#contact)
+2. [Technology](#technology)
+3. [Screenshots](#screenshots)
 
   
 ## Description <a name="description"><a/>
 
-## Installation <a name="installation"><a/>
+This application tracks a users workouts. The stats for the last workout are shown on the home page. The user can see their workout duration and weight on the dashboard page, where they are displayed as charts.
 
-## Usage <a name="usage"><a/>
+## Technology <a name="technology"><a/>
 
-
-## Credits <a name="credits"><a/>
+-MongoDB
+-Express
+-JS
+-Node.js
+-Morgan
+-dotenv
+-Mongoose
 
 ## Screenshots
+
+<img src="assets/WorkoutTracker.png">
+<img src="assets/WorkoutTrackerCharts.png">
 
